@@ -1,8 +1,8 @@
-function addition () {
+function closureFunction () {
     let sum = 0;
     return num => sum += num;
 }
-let counter = addition();
+let counter = closureFunction();
 console.log(counter(1))
 console.log(counter(3))
 console.log(counter(2))
